@@ -1,0 +1,680 @@
+*{
+	color: white; 
+  overflow-x: none; 
+
+}
+
+p{
+  color:  rgba(255, 255, 255, 0.5) !important
+}
+
+body{
+  background-color:  white;
+}
+
+main{
+  background-color:  #1b1c1e;
+}
+a{
+  text-decoration: none;
+}
+
+span{
+   font-size: 9px;
+}
+
+.nav_bar{
+  width: 100%;
+  height: 700px;
+  background-image: url("images/bg2.jpg");
+  background-position: center center;
+  opacity: 2.9;
+  background-size: cover;
+  padding-top: 20px;
+  font-size: 19px;
+
+}
+
+.nav_items{
+  line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+}
+
+.nav_logo{
+
+  background-image: url("images/logo.png");
+  background-size: cover;
+  width: 170px;
+  height:53px;
+  margin-left: 120px;
+  margin-top: 15px;
+}
+
+.nav_link > ul {
+	display: flex;
+	list-style-type: none;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+.phone_icon{
+  padding-left: 300px;
+  margin-right: 100px
+}
+
+.nav_link > ul li{
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.nav_link > ul a{
+  font-size: 14px;
+  display: inline-block;
+	text-decoration: none;
+}
+
+body {
+  color: blue;
+  background-color: black;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+textarea {
+  resize: vertical; 
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9{
+  width: 100%;
+  height: 700px;
+  background-color: #1b1c1e;
+}
+
+.hero_sec{
+  font-size: 37px;
+  text-align: center;
+  padding-left: 550px;
+  padding-top: 67px
+}
+
+.hero_sec p{
+  font-size: large;
+  padding-left: 98px;
+}
+
+.button{
+  display: flex;
+  padding-left: 350px;
+  padding-bottom: 20px;
+}
+
+.our_services{
+  background-color: #037ef3;;
+  width: 150px;
+  height:53px;
+  color: white;
+  border: 1px solid #000;
+  text-transform: capitalize;
+  font-size: 19px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 4px;
+  border-color: #037ef3;
+}
+
+.contact{
+  background-color: transparent;
+  width: 150px;
+  height:53px;
+  text-transform: capitalize;
+  font-size: 19px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.contact:hover{
+  color: black;
+  background-color: white;
+  transition: .3s all ease;
+}
+
+.our_services a,
+.contact a{
+  text-decoration: none;
+}
+
+/*first section stylin*/
+.section1{
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.2;
+}
+.section1 h2{
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  margin-left: 90px;
+}
+
+.section1 p{
+  margin-left: 90px;
+  color: rgba(255, 255, 255, 0.5) !important
+
+}
+.section1 h2:hover{
+   font-size: 50px;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  margin-left: 70px;
+  transition: 0.3s;
+
+}
+
+.our_services{
+  margin-left: 90px;
+  margin-bottom: 20;
+}
+
+.img{
+  background-image: url(images/bg1.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  color: red;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  font-size: 19px;
+  text-align: center;
+  line-height: 120px;
+  margin-top: 100px;
+  position: relative;
+  top: 130px;
+  left: 220px;
+}
+
+.blackbox{
+  background-color: black;
+  width: 900px;
+  height: 170px;
+  color: red;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  font-size: 19px;
+  text-align: center;
+  line-height: 120px;
+  
+ 
+}
+
+.img > img{
+
+  width: 400px;
+  height: 100;
+  padding-left: 240px;
+
+}
+
+/*secton 2 starts ere*/
+.section2 h2{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.section2 h2:hover{
+   font-size: 50px;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  margin-left: 70px;
+  transition: 0.3s;
+
+}
+
+.section2{
+  margin-top: 20px;
+  opacity: 20px;
+  background-color:  rgba(255, 255, 255, 0.02);
+}
+
+.services3,
+.services3i{
+  display: flex;
+}
+
+.blue_cir h3,
+.blue_cir h3 > p{
+ color: rgba(255, 255, 255, 0.5) important
+}
+
+.blue_cir{
+  width: 120px;
+  height: 50px;
+  border-radius: 50%;
+  left: -20px;
+  top: 0;
+  content: "";
+  background-color: #037ef3;
+  line-height: 50px;
+  text-align: right;
+  font-size: 30px;
+}
+
+}
+
+.all_services{
+  gap: 1px;
+}
+
+/*section 3 starts ere*/
+.bar{
+  background-image: url("images/hero_3.webp");
+  background-size: cover;
+  width: 700px;
+  height: 400px;
+}
+
+.section3{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.section3 h2{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.justice > h3{
+  font-family: "Playfair Display", serif
+  font-size: x-large;
+}
+
+.security{
+  margin-left: 100px;
+}
+
+.justice{
+  margin-right: 100px;
+  padding-top: 150px;
+}
+
+.read_more{
+  background-color: #037ef3;;
+  width: 150px;
+  height:53px;
+  color: white;
+  border: 1px solid #000;
+  text-transform: capitalize;
+  font-size: 19px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 4px;
+  border-color: #037ef3;
+}
+/*section5 starts here*/
+.section5{
+
+}
+.investigative{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px  rgba(255, 255, 255, 0.02);
+}
+
+.in_ser{
+  margin-left: 250px;
+}
+
+.cr_d{
+  margin-right: 250px;
+}
+
+.new_con{
+  display: flex;
+  justify-content: space-between;
+}
+
+.jay1{
+  margin-left: 105px;
+  padding-bottom: 40px;
+
+}
+
+.jay1 > h3{
+  font-size: 50px;
+}
+
+.jay2{
+  margin-left: 105px;
+
+}
+.mee{
+  background-image: url("images/bg1.jpg");
+  background-size: cover;
+  width: 700px;
+  height: 400px;
+  padding-top: 40px;
+  margin-right: 200px;
+  margin-top: 70px;
+}
+/*section 6 starts here*/
+
+.section6{
+  margin-left: 30px;
+}
+.section6 h2{
+  font-size: 50px
+}
+
+.parent_bar{
+  display: flex;
+
+}
+.black_bar{
+  background-color: black;
+  width: 350px;
+  height:150px;
+  color: white;
+  border: 3px solid #000;
+  text-transform: capitalize;
+  font-size: 19px;
+  line-height: 50px;
+  border-radius: 4px;
+  border-color:  #1b1c1e;
+  text-align: center;
+
+}
+.bar1,
+.bar2,
+.bar3,
+.bar4{
+  
+}
+.black_bar:hover{
+  background-color: #037ef3;
+  transition: 0.5s;
+}
+/*section 7 starts here*/
+h5{
+  color: blue;
+}
+.first{
+  background-color: #037ef3;
+ width: 400px;
+ height: 60px;
+color: white;
+border-radius: 4px;
+}
+.first > h5{
+  color: white;
+}
+
+.sec,
+.third{
+background-color: transparent;
+ width: 400px;
+ height: 60px;
+
+}
+
+.sec:hover,
+.third:hover{
+  background-color:  #037ef3;
+  color: white;
+  transition: 0.5s;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px white;
+}
+
+.section7{
+  display: flex;
+  justify-content: space-between;
+}
+.testimonials{
+  margin-left: 120px;
+}
+
+.small{
+  margin-right: 90px;
+}
+.small > h1{
+  font-size: 35px;
+  font-style: sans-serif;
+}
+ /*section 8 starts here*/
+ .peace_order{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .peace1{
+  margin-left: 105px;
+  padding-bottom: 40px;
+
+}
+
+.peace1 > h3{
+  font-size: 30px;
+  padding-top: 110px;
+}
+
+.peace2{
+  margin-left: 105px;
+
+}
+.imge{
+  background-image: url("images/hero_2.webp");
+  background-size: cover;
+  width: 700px;
+  height: 400px;
+  padding-top: 40px;
+  margin-right: 200px;
+  margin-top: 70px;
+
+}
+
+.imge:hover{
+
+  background-image: url(images/bg1.jpg);
+  transition: opacity 0.3s ease;
+
+}
+
+
+/*section 9 begins here*/
+.form{
+  height: 54px;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.02);
+  color: #fff;
+  width: 43%;
+}
+.form2{
+  height: 230px;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.02);
+  color: #fff;
+  width: 87%;
+}
+
+.section9 > h1{
+  margin-left: 110px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+form{
+  margin-left: 110px;
+}
+
+/*this is the footer section*/
+footer{
+  width: 100%;
+  height: 300px;
+  background-color: #1b1c1e;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a{
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.40) !important
+
+}
+
+.address{
+  margin-left: 200px
+}
+
+.links_foot{
+  margin-right: 300px;
+}
+
+.sources{
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  gap: 100px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.last{
+  margin-left: 600px;
+  padding-top: 40px;
+}
+
+.pic{
+   width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: -20px;
+  top: 0;
+  content: "";
+  background-image: url("images/bg3.jpg");
+  background-size: cover;
+}
+
+.sec span,
+.first span,
+.third span{
+  color:  rgba(255, 255, 255, 0.5) !important
+ 
+}
+
+/* styles.css */
+.icons{
+  padding:15px;
+  display: flex;
+  gap:15px;
+  
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  left: -20px;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.09);
+  border: 1px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.icon1:hover,
+.icon2:hover,
+.icon3:hover,
+.icon4:hover{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  left: -20px;
+  top: 0;
+  background-color: #037ef3;
+  border: 1px;
+  text-align: center;
+  line-height: 50px;
+  transition: 0.3s;
+}
+
+.button span{
+  font-size: 9px;
+}
+
+.investigative:hover{
+  font-family: sans-serif;
+  ;
+}
+
+.about{
+  display: flex;
+  justify-content: space-between;
+}
+.newicons{
+  display: flex;
+  gap: 5px;
+
+}
+.aboutP{
+  padding-top: 200px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  transition: opacity 0.5s ease-in-out; /* Transition effect */
+  opacity: 0; /* Start with 0 opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto; /* 10% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  transition: transform 0.5s ease-in-out; /* Transition effect */
+  transform: scale(0); /* Start scaled down */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+#myModal{
+  background-color: white;
+  width: 600px;
+  max-height: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px black;
+  text-align: center;
+}
+
